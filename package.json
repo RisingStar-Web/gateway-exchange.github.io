@@ -1,0 +1,25 @@
+{
+  "homepage": "http://gateway.github.io/protocol-v1/sdk",
+  "name": "sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gateway-Exchange/gateway-protocol-v1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gateway-Exchange/gateway-protocol-v1/issues"
+  },
+  "homepage": "https://github.com/Gateway-Exchange/gateway-protocol-v1#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
